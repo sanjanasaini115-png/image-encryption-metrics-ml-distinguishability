@@ -13,12 +13,13 @@ distinguish AES from Chaos/XOR encryption using only these metrics.
 ## Models
 - Random Forest Classifier
 - Support Vector Machine (SVM)
+- Logistic Regression
 
 ## Results (Classification Accuracy)
-| Resolution | Random Forest | SVM |
-|-----------:|--------------:|----:|
-| 512×512    | 43.33%        | 36.66% |
-| 1024×1024  | 59.09%        | 59.09% |
+| Resolution | Random Forest | SVM | Logistic Regression |
+|-----------:|--------------:|----:|--------------------:|
+| 512×512    | 63.66%        | 56.67% | 50% |
+| 1024×1024  | 50%        | 50% | 45.45% |
 
 ## Data Files
 - `Book512_512.xlsx` : metrics for 512×512 encrypted images
